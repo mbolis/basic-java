@@ -1,0 +1,21 @@
+package it.sorint.training.ex7;
+
+import static java.lang.String.format;
+
+public class Main {
+
+    public static class Operations {
+    }
+
+    public static void main(String[] args) {
+        Operations operations = new Operations();
+
+        int x, y, z;
+
+        x = 12;
+        y = operations.multBy2(x);
+        z = operations.add3(y);
+
+        System.out.println(format("x=%d y=%d z=%d", x, y, z));
+    }
+}

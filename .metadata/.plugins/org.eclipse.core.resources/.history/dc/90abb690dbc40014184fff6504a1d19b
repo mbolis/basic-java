@@ -1,0 +1,10 @@
+package it.sorint.training;
+
+public class Counter {
+
+	final int count;
+	
+	public void increment() {
+		count++;
+	}
+}

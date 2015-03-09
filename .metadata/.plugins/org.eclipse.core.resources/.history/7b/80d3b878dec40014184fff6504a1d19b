@@ -1,0 +1,10 @@
+package it.sorint.training;
+
+public class Util {
+
+    
+    
+    public static String readln() {
+        
+    }
+}

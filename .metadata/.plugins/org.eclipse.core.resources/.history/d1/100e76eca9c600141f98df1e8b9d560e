@@ -1,0 +1,17 @@
+package it.sorint.training;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Scanner;
+
+public class IOUtil {
+
+    private static BufferedReader rd;
+    
+    public static String readln() {
+        if (rd == null) {
+            rd = new BufferedReader(new InputStreamReader(System.in));
+        }
+        return rd.readLine();
+    }
+}

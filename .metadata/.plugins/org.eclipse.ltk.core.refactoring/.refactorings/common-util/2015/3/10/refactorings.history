@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;it.sorint.training.IOUtil.readline()&apos; to &apos;readln&apos;&#x0A;- Original project: &apos;common-util&apos;&#x0A;- Original element: &apos;it.sorint.training.IOUtil.readline()&apos;&#x0A;- Renamed element: &apos;it.sorint.training.IOUtil.readln()&apos;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;readline&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;it.sorint.training{IOUtil.java[IOUtil~readline" name="readln" references="true" stamp="1425742253108" version="1.0"/>
+</session>

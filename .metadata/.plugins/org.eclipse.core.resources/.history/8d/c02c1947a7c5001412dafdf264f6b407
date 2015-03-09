@@ -1,0 +1,49 @@
+package it.sorint.training.ex8;
+
+import static java.lang.String.format;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Operations operations = new Operations();
+
+        int x, y, z;
+
+        x = 12;
+        // the method `mult` should multiply the two integer arguments
+        y = operations.mult(x, 2);
+        // the method `add` should sum the two integer arguments
+        z = operations.add(y, 3);
+
+        System.out.println(format("x=%d y=%d z=%d", x, y, z));
+
+        int c0, c1, c2;
+
+        c0 = 4;
+        Counter counter = new Counter(c0);
+
+        counter.increment();
+        c1 = counter.getCount();
+
+        /*
+         * The method `increment` should increment the Counter passed as first argument
+         * of the integer passed as second argument
+         */
+        operations.increment(counter, 2);
+        c2 = counter.getCount();
+
+        System.out.println(format("c0=%d c1=%d c2=%d", c0, c1, c2));
+
+        int original, incremented;
+
+        /*
+         * The method `newIncremented` should leave the original Counter UNCHANGED
+         * and return instead a new incremented Counter
+         */
+        Counter newCounter = operations.newIncremented(counter, 3);
+        original = counter.getCount();
+        incremented = newCounter.getCount();
+
+        System.out.println(format("original=%d incremented=%d", original, incremented));
+    }
+}

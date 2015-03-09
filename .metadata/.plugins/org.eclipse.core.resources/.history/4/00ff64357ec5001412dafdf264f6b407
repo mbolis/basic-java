@@ -1,0 +1,24 @@
+package it.sorint.training;
+
+import java.io.IOException;
+import java.util.Scanner;
+
+public class IOUtil {
+
+    public static String readln() {
+        try (Scanner in = new Scanner(System.in)) {
+            if (in.hasNextLine()) {
+                return in.nextLine();
+            }
+            return null;
+        }
+    }
+    
+    public static char getch() throws IOException {
+        return (char) System.in.read();
+    }
+    
+    public static void main(String[] args) throws IOException {
+        System.out.println(getch());
+    }
+}

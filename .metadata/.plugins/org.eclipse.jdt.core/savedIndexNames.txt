@@ -1,0 +1,24 @@
+INDEX VERSION 1.127+/home/mbolis/devel/workspaces/mbolis/java-course/.metadata/.plugins/org.eclipse.jdt.core
+3996314765.index
+2692949001.index
+2244090326.index
+2535139991.index
+1317881125.index
+1055371690.index
+2925046843.index
+1196052788.index
+3554707798.index
+918426076.index
+2817450000.index
+3646921901.index
+2144533817.index
+2657684178.index
+3504984198.index
+2632658620.index
+965375411.index
+2991522783.index
+1239449916.index
+1775415917.index
+2390675225.index
+1547122946.index
+2255390674.index

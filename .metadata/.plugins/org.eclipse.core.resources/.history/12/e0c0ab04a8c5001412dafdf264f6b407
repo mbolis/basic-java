@@ -1,0 +1,10 @@
+package it.sorint.training.ex8;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        int[] numbers = { 3, 5, 9, 1, 7, 6, 2, 0, 4, 8 };
+        //
+    }
+}

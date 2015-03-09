@@ -1,0 +1,54 @@
+package it.sorint.training.ex7;
+
+import it.sorint.training.IOUtil;
+
+import java.util.List;
+
+public class Main {
+
+    public static class Util {
+
+        public static List<String> readStrings() {
+            List<String> strings = ;
+            String string = IOUtil.readln();
+            while (string != null) {
+                // store string
+                // read a new one
+            }
+            return strings;
+        }
+        
+        public static List<Message> readMessages() {
+            List<String> strings = readStrings();
+            
+            List<Message> messages = ;
+            // loop
+            {
+                // foreach string create a message
+            }
+            return messages;
+        }
+    }
+    
+    public static class Message {
+        
+        private String message;
+        
+        public Message(String message) {
+            this.message = message;
+        }
+        
+        public String getMessage() {
+            return message;
+        }
+        
+        public void setMessage(String message) {
+            this.message = message;
+        }
+    }
+
+    public static void main(String[] args) {
+
+        List<Message> messages = Util.readMessages();
+    }
+}

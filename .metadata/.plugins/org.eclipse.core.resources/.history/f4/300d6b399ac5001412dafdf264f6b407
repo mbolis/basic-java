@@ -1,0 +1,38 @@
+package it.sorint.training.ex6;
+
+import java.util.Deque;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+public class Main {
+
+    /*
+     * Let's implement a program that:
+     * 1. reads any number of strings from standard input
+     * 2. keeps only unique strings
+     * 3. translates known strings
+     * 4. prints the resulting strings from last to first
+     */
+
+    public static void main(String[] args) {
+
+        List<String> strings = ; // create a list to hold the input
+        // loop until no more input is available
+        {
+            // add string to list
+        }
+        
+        Set<String> uniqueStrings = ; // create a set with all the strings we collected. Do we care about order???
+        
+        Map<String, String> dictionary = ; // create a map to perform translations
+        // populate dictionary with known translations
+        
+        Deque<String> stringsStack = ; // create a LIFO stack to reverse the order of our strings
+        // populate the stack
+        // loop
+        {
+            // get and print value from the stack
+        }
+    }
+}

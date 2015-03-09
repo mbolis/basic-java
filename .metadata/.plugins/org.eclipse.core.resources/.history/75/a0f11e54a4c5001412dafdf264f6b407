@@ -1,0 +1,12 @@
+package it.sorint.training.ex7;
+
+import it.sorint.training.IOUtil;
+
+import java.util.List;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+    }
+}

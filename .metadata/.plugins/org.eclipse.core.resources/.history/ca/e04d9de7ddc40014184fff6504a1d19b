@@ -1,0 +1,8 @@
+package it.sorint.training;
+
+public class Main {
+
+	/*
+	 * Write here the main method. It should print a nice `Hello, World!` message.
+	 */
+}

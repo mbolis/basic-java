@@ -1,0 +1,18 @@
+package it.sorint.training;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        int x, y, z;
+
+        x = 12;
+        y = 10.0;
+        z = "15";
+
+        final String greeting = "Hello";
+        greeting = "Howdy";
+
+        Counter counter = new Counter();
+    }
+}

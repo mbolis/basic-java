@@ -1,0 +1,79 @@
+J2SE 1.4 (feb 2002)
+
+ * `assert` keyword
+ * regular expressions support (modeled after Perl)
+ * exception chaining
+ * IPv6 support
+ * non-blocking I/O (NIO)
+ * logging API
+ * image I/O API
+ * integrated XML parser + XSLT processor (JAXP)
+ * integrated security and cryptography (JCE, JSSE, JAAS)
+ * Java Web Start
+ * preferences API (java.util.prefs)
+
+
+J2SE 5.0 (set 2004)
+
+ * generics
+ * annotations (metadata)
+ * autoboxing / unboxing
+ * enumerations
+ * varargs
+ * enhanced foreach loop
+ * static imports
+ 
+ * fix semantics of the Java Memory Model
+ * skinnable look and feel for GUIs
+ * concurrency utilities (java.util.concurrent)
+ * Scanner class for parsing input
+
+
+Java SE 6 (dic 2006)
+
+ * scripting language support
+ * performance improvements
+ * improved Web Service support (JAX-WS)
+ * JDBC 4.0 support
+ * Java Compiler API
+ * JAXB 2.0 (including StAX parser)
+ * GUI improvements
+ * JVM improvements: synchronization and compiler performance, upgrades to GC algorithms and start-up performance
+
+
+Java SE 7 (lug 2011)
+
+ * JVM support for dynamic languages (invokedynamic)
+ * compressed 64-bit pointers
+ * project Coin:
+   - strings in switch statements
+   - try with resources
+   - type inference for generic instance creation (diamond operator <>)
+   - binary integer literals
+   - allow underscore (_) in numeric literals
+   - exception multi-catching
+ * concurrency utilities
+ * new file I/O library (NIO2 - java.nio.file)
+ * more efficient sorting algorithm
+ * improvements in graphics and cryptography
+
+
+Java 8 (mar 2014)
+
+ * support for lambda expressions
+ * new internal javaScript engine (Nashorn)
+ * annotations on types and repeating annotations
+ * unsigned integer arithmetic
+ * Date and Time API
+ * JVM memory: remove the permanent generation
+
+
+Java 9, 10...
+
+ * support for multi-gigabyte heaps
+ * better native code integration
+ * self-tuning JVM
+ * modularization of the JDK (project Jigsaw)
+ * Money and Currency API
+ * value types
+ * 64-bit addressed arrays

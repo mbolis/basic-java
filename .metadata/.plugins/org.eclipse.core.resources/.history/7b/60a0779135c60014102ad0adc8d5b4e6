@@ -1,0 +1,11 @@
+package it.sorint.training.ex9;
+
+import java.awt.Point;
+import java.util.List;
+
+public class Main {
+
+    public static void main(String[] args) {
+        
+    }
+}

@@ -1,0 +1,57 @@
+package it.sorint.training.ex7;
+
+import static java.lang.String.format;
+
+public class Main {
+
+    public static class Counter {
+        private int count;
+
+        public Counter() {
+        }
+
+        public Counter(int count) {
+            this.count = count;
+        }
+
+        public void increment() {
+            count++;
+        }
+
+        public int getCount() {
+            return count;
+        }
+    }
+
+    public static void main(String[] args) {
+        Operations operations = new Operations();
+
+        int x, y, z;
+
+        x = 12;
+        y = operations.multBy2(x);
+        z = operations.add3(y);
+
+        System.out.println(format("x=%d y=%d z=%d", x, y, z));
+
+        int c0, c1, c2;
+
+        c0 = 4;
+        Counter counter = new Counter(c0);
+
+        counter.increment();
+        c1 = counter.getCount();
+
+        operations.increment(counter, 2);
+        c2 = counter.getCount();
+
+        System.out.println(format("c0=%d c1=%d c2=%d", c0, c1, c2));
+
+        int original, incremented;
+        Counter newCounter = operations.newIncrmented(counter, 3);
+        original = counter.getCount();
+        incremented = newCounter.getCount();
+
+        System.out.println(format("original=%d incremented=%d", original, incremented));
+    }
+}

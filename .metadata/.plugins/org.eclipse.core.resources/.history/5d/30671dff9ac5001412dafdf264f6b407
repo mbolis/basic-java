@@ -1,0 +1,21 @@
+package it.sorint.training.ex7;
+
+import java.util.Deque;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+public class Main {
+
+    /*
+     * Let's implement a program that:
+     * 1. reads any number of strings from standard input
+     * 2. keeps only unique strings
+     * 3. translates known strings
+     * 4. prints the resulting strings from last to first
+     */
+
+    public static void main(String[] args) {
+
+    }
+}

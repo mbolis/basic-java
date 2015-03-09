@@ -1,0 +1,12 @@
+package it.sorint.training;
+
+import java.util.Scanner;
+
+public class IOUtil {
+
+    public static String readln() {
+        try (Scanner in = new Scanner(System.in)) {
+            return in.nextLine();
+        }
+    }
+}

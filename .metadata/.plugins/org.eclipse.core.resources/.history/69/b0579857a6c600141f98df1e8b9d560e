@@ -1,0 +1,19 @@
+package it.sorint.training.ex9;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        System.out.println("Welcome to the Online Virtual Storage.\n");
+        while (true) {
+            
+        }
+    }
+    
+    public static String prompt() {
+        System.out.println("  S - Store an item");
+        System.out.println("  L - List stored items");
+        System.out.println("  U - Update a stored item");
+        System.out.println("  R - Remove an item");
+    }
+}

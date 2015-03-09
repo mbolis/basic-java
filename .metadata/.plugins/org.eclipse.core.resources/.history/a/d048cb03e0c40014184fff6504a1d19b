@@ -1,0 +1,18 @@
+package it.sorint.training.ex3;
+
+import it.sorint.training.IOUtil;
+
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.print("Hello, what's your name? ");
+        String input = IOUtil.readln();
+        if (input == null || input.isEmpty()) {
+            System.exit(1);
+        }
+
+        // print the name all in upper-case
+        // print the name all in lower-case
+        // print the name capitalized (first letter upper, rest lower-case)
+    }
+}

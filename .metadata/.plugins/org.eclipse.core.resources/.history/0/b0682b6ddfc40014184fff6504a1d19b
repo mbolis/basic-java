@@ -1,0 +1,15 @@
+package it.sorint.training.ex3;
+
+import it.sorint.training.IOUtil;
+
+public class Main {
+
+    public static void main(String[] args) {
+        String input = IOUtil.readln();
+        if (input.isEmpty()) {
+            System.exit(1);
+        }
+        
+        
+    }
+}
